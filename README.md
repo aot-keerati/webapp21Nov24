@@ -1,8 +1,10 @@
-# React + Vite
+### This is a simple web application where you can interact with GPT! 🎉 using the OpenAI API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies Used:
+- React for the frontend.
+- OpenAI API for the chatbot.
+- Vite for fast development.
+_______________ _______________ _______________ _______________ 
+More my project presentation url: [Click](https://www.canva.com/design/DAGXAqEaKko/LyQ1OEXA3E8QPrnPQ-hElw/edit?utm_content=DAGXAqEaKko)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+_______________ _______________ _______________ _______________ 
