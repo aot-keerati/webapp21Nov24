@@ -1,0 +1,145 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0; /* ให้แน่ใจว่าไม่มี margin ของ body */
+}
+
+/* ปรับปรุงการจัดการ layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1028px;
+  max-width: 800px; /* จำกัดความกว้างของ app container */
+  min-height: 90vh; /* ให้ container ครอบคลุมพื้นที่ 90% ของหน้าจอ */
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.search-form textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  resize: none;
+  min-height: 100px;
+}
+
+.search-form .input-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.search-form .input-options select,
+.search-form .input-options input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.search-form button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #3498db;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-form button:disabled {
+  background-color: #95a5a6;
+}
+
+.search-form button:hover:not(:disabled) {
+  background-color: #2980b9;
+}
+
+.loading-message {
+  font-size: 1.2rem;
+  color: #3498db;
+  margin-top: 20px;
+}
+
+.response {
+  padding: 20px;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.response h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer {
+  padding: 15px;
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+}
+
+/* เพิ่ม media query สำหรับทำให้ app responsive */
+@media (max-width: 768px) {
+  .app-container {
+    width: 90%;
+  }
+
+  .header {
+    font-size: 1.2rem;
+  }
+
+  .search-form textarea {
+    font-size: 0.9rem;
+  }
+
+  .search-form button {
+    font-size: 0.9rem;
+  }
+}
