@@ -8,7 +8,8 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [maxTokens, setMaxTokens] = useState(500);
 
-  const openaiApiKey = import.meta.env.VITE_OPENAI_API_KEY;
+  // const openaiApiKey = import.meta.env.VITE_OPENAI_API_KEY; ////
+  const openaiApiKey = process.env.VITE_OPENAI_API_KEY; ////
 
   const handleSubmit = async (e) => {
     e.preventDefault();
