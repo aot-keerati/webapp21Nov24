@@ -5,6 +5,6 @@
 - OpenAI API for the chatbot.
 - Vite for fast development.
 _______________ _______________ _______________ _______________ 
-More my project presentation url: [Click](https://www.canva.com/design/DAGXAqEaKko/LyQ1OEXA3E8QPrnPQ-hElw/edit?utm_content=DAGXAqEaKko)
-
+🔗 Demo: (Currently limited due to API issues) [Click](https://webapp21-nov24.vercel.app/)
+🔗 More my project presentation: [Click](https://www.canva.com/design/DAGXAqEaKko/LyQ1OEXA3E8QPrnPQ-hElw/edit?utm_content=DAGXAqEaKko)
 _______________ _______________ _______________ _______________ 
